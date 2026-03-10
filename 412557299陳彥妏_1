@@ -1,0 +1,152 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPsL83flD2E+XaYrJzqFEoO",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/nniechen/Introduction-To-Computer-/blob/main/412557299%E9%99%B3%E5%BD%A5%E5%A6%8F_1\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x = -10\n",
+        "print(x)\n",
+        "print(\"使用abs函數\", abs(x), (\"\\n\"))\n",
+        "\n",
+        "a = 2\n",
+        "b = 10\n",
+        "print(\"使用pow函數\", pow(a, b), (\"\\n\"))\n",
+        "\n",
+        "y = 47.5\n",
+        "print(y)\n",
+        "print(\"使用round函數\", round(y), (\"\\n\"))  # (奇數4捨5入)\n",
+        "\n",
+        "z = 56.5\n",
+        "print(z)\n",
+        "print(\"使用round函數\", round(z), (\"\\n\"))  # (偶數5捨6入)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Tge8K0Nus9WG",
+        "outputId": "79dea3db-3d9e-4531-d603-27321f664b01"
+      },
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "-10\n",
+            "使用abs函數 10 \n",
+            "\n",
+            "使用pow函數 1024 \n",
+            "\n",
+            "47.5\n",
+            "使用round函數 48 \n",
+            "\n",
+            "56.5\n",
+            "使用round函數 56 \n",
+            "\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "from __future__ import print_function\n",
+        "x=True\n",
+        "print(int(x))\n",
+        "print(type(x))\n",
+        "y=False\n",
+        "print(int(y))\n",
+        "print(type(y))\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "JtqfjI7GuJOZ",
+        "outputId": "52cf5982-bb01-4484-e106-29ecb793509a"
+      },
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "1\n",
+            "<class 'bool'>\n",
+            "0\n",
+            "<class 'bool'>\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x1=\"22\"\n",
+        "x2=\"33\"\n",
+        "x3=x1+x2\n",
+        "print(x3)\n",
+        "\n",
+        "x4=float(x1)+float(x2)  # 型態轉換成浮點數\n",
+        "#x5=int(x1)+int(x2)     # 型態轉換成整數\n",
+        "\n",
+        "print(x4)\n",
+        "\n",
+        "#print(x5）"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "BKi1Nzppu12q",
+        "outputId": "129bad80-8c35-474c-cb3f-f4eaa8831532"
+      },
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "2233\n",
+            "55.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "JhJvW0GFvk36"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
